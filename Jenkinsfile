@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_USERNAME = 'abdoul223'
-        IMAGE_BACKEND = 'smartphone-backend'
-        IMAGE_FRONTEND = 'smartphone-frontend'
+    DOCKER_USER = 'kebambaye195-beep'
+    FRONT_IMAGE = 'express-frontend'
+    BACK_IMAGE  = 'express-backend'
     }
 
     stages {
